@@ -1,7 +1,7 @@
-<html>
+<!doctype html>
     <body>
         <script type="text/javascript">
-            let re;
+            var re;
             var up=document.getElementById('update');
             const request = require("request");
             const cheerio = require("cheerio");
@@ -17,6 +17,7 @@
             });
             $('.update').text(re);
         </script>
+        
         <p class="update">
             -실시간 전국 정보-
             총 확진 환자: 3,150명/

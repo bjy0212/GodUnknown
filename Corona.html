@@ -1,5 +1,22 @@
 <html>
     <body>
+        <script type="text/javascript">
+            let re;
+            var up=document.getElementById('update');
+            const request = require("request");
+            const cheerio = require("cheerio");
+                request("http://ncov.mohw.go.kr/bdBoardList.do", function(error, response, body) {
+            if (error && response.statusCode !== 200) {
+                console.error("error:", error);
+                console.log("statusCode:", response && response.statusCode);
+            }
+            const $ = cheerio.load(body);
+            $(".s_listin_dot").first().find("li").each((index, element) => {
+            re+=($(element).text())+"/";
+                });
+            });
+            $('.update').text(re);
+        </script>
         <p class="update">
             -실시간 전국 정보-
             총 확진 환자: 3,150명/
@@ -121,21 +138,5 @@
 /
             -지역별 정보-
         </p>
-        <script type="text/javascript">
-            let re;
-            var up=document.getElementById('update');
-            const request = require("request");
-            const cheerio = require("cheerio");
-                request("http://ncov.mohw.go.kr/bdBoardList.do", function(error, response, body) {
-            if (error && response.statusCode !== 200) {
-                console.error("error:", error);
-                console.log("statusCode:", response && response.statusCode);
-            }
-            const $ = cheerio.load(body);
-            $(".s_listin_dot").first().find("li").each((index, element) => {
-            re+=($(element).text())+"/";
-                });
-            });
-            $('.update').text(re);
     </body>
 </html>

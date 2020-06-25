@@ -6,6 +6,7 @@ html {
 	-khtml-user-select: none;
 	user-select:none;
     -webkit-text-size-adjust: none;
+	font-fammily: 'Roboto', serif;
 }
 
 .centered {
@@ -14,11 +15,12 @@ html {
 	margin-right: auto;
 }
 
+
 table.menu {
+	font-size: 1.3rem;
 	margin-top: 1rem;
 	margin-left: 10%;
 	margin-right: 10%;
-	background-color: #F8C946;
 	border-collapse: collapse;
 }
 
@@ -35,6 +37,10 @@ table.menu td {
 table.menu td:hover {
 	color: yellow;
 	background-color: #FBAF0B;
+}
+
+td#gene {
+	width: 1%;
 }
 
 div.main {

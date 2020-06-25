@@ -1,0 +1,107 @@
+html {
+	line-height: 1.5rem;
+}
+
+#no-drag {
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	user-select:none;
+}
+
+.centered {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.banner {
+	margin-left: 15rem;
+}
+
+table.menu {
+	margin-top: 1rem;
+	background-color: #F8C946;
+	height: 3rem;
+	border-collapse: collapse;
+}
+
+table.menu td {
+	border: 0.15rem solid white;
+	color: white;
+	font-weight: bold;
+	background-color: #F8C946;
+	text-align: center;
+	width: 8.5rem
+}
+
+table.menu td:hover {
+	color: yellow;
+	background-color: #FBAF0B;
+}
+
+div.main {
+	border-left: 0.1rem solid #F8C946;
+	margin-top: 3rem;
+	margin-left: 15rem;
+	margin-right: 20rem;
+}
+
+.body {
+	margin-left: 5rem;
+	margin-right: 5rem;
+	padding-top: 4rem;
+	padding-bottom: 8rem;
+}
+
+.body h1 {
+	padding-bottom: 3rem;
+	padding-left: 2rem;
+	padding-top: 1rem;
+	text-weigth: bold;
+	border-left: 0.3rem solid #F8C946;
+}
+
+.body h3 {
+	padding-bottom: 0.5rem;
+	margin-top: 5rem;
+	margin-bottom: 3rem;
+	border-bottom: 0.05rem solid black;
+}
+
+.body p.author {
+	text-align: right;
+	font-weight: bold;
+}
+
+.body hr {
+	border: 0.05rem dashed black;
+	margin-bottom: 5rem;
+}
+
+details {
+	border: 0.2rem dashed #F8C946;
+	padding: 1rem;
+}
+
+ol {
+	list-style-type: decimal;
+	list-style-position: inside;
+}
+
+ul {
+	list-style-position: inside;
+}
+
+pre {
+	font-weight: bold;
+	width: 20rem;
+  	background: #EEE;
+  	padding-top: 1rem;
+	padding-left: 3rem;
+	font-weight: bold;
+	font-size: 0.9rem;
+  	border-left: 0.3rem solid orange;
+	padding-bottom: 1rem;
+}

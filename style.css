@@ -5,6 +5,7 @@ html {
 	-webkit-user-select: none;
 	-khtml-user-select: none;
 	user-select:none;
+                -webkit-text-size-adjust: none; 
 }
 
 .centered {
@@ -15,10 +16,11 @@ html {
 
 table.menu {
 	margin-top: 1rem;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
 	background-color: #F8C946;
 	border-collapse: collapse;
+	height: 8%;
 }
 
 table.menu td {
@@ -38,8 +40,9 @@ table.menu td:hover {
 div.main {
 	border-left: 0.1rem solid #F8C946;
 	margin-top: 3rem;
-	width: 90%;
-	margin-left: 5%;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 .body {

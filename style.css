@@ -13,10 +13,6 @@ html {
 	margin-right: auto;
 }
 
-div.banner {
-	margin-left: 1rem;
-}
-
 table.menu {
 	margin-top: 1rem;
 	background-color: #F8C946;
@@ -41,8 +37,6 @@ table.menu td:hover {
 div.main {
 	border-left: 0.1rem solid #F8C946;
 	margin-top: 3rem;
-	margin-left: 1rem;
-	margin-right: 1rem;
 }
 
 .body {

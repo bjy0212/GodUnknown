@@ -20,7 +20,6 @@ table.menu {
 	margin-right: 10%;
 	background-color: #F8C946;
 	border-collapse: collapse;
-	height: 3rem;
 }
 
 table.menu td {
@@ -30,7 +29,7 @@ table.menu td {
 	background-color: #F8C946;
 	text-align: center;
 	width: 5%;
-	height: 3rem;
+	height: 50px;
 }
 
 table.menu td:hover {

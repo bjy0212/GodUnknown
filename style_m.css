@@ -1,0 +1,43 @@
+html {
+	-webkit-text-size-adjust: none;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	user-select:none;
+	font-fammily: 'Roboto', serif;
+
+	font-size: 2rem;
+	line-height: 2.5rem;
+}
+
+#menu {
+	display: none;
+}
+
+div.menu img{
+	border: 0.2rem solid orange;
+}
+
+.sub {
+	display: none;
+	width: 40%;
+}
+
+.sub {
+	padding: 1rem;
+}
+
+.sub li {
+	text-align: center;
+	display: inline-box;
+	float: top;
+	list-style-type: none;
+	background: #F8C946;
+	border: 0.1rem solid white;
+	width: 40%
+}
+
+#menu:checked + .sub {
+	display: inline;
+}

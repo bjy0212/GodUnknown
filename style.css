@@ -30,6 +30,7 @@ table.menu td {
 	background-color: #F8C946;
 	text-align: center;
 	width: 5%;
+	height: 3rem;
 }
 
 table.menu td:hover {

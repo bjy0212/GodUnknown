@@ -15,8 +15,10 @@ html {
 
 table.menu {
 	margin-top: 1rem;
+	margin-left: 5%;
+	margin-right: 5%;
 	background-color: #F8C946;
-	height: 3rem;
+	height: 9%;
 	border-collapse: collapse;
 }
 
@@ -26,7 +28,7 @@ table.menu td {
 	font-weight: bold;
 	background-color: #F8C946;
 	text-align: center;
-	width: 8.5rem
+	width: 5%;
 }
 
 table.menu td:hover {
@@ -37,6 +39,8 @@ table.menu td:hover {
 div.main {
 	border-left: 0.1rem solid #F8C946;
 	margin-top: 3rem;
+	width: 90%;
+	margin-left: 5%;
 }
 
 .body {
@@ -54,7 +58,7 @@ div.main {
 	border-left: 0.3rem solid #F8C946;
 }
 
-.body h3 {
+.body h2 {
 	padding-bottom: 0.5rem;
 	margin-top: 5rem;
 	margin-bottom: 3rem;

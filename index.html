@@ -15,6 +15,7 @@
 	<p>
 		<canvas id="myCanvas" width="480" height="320"></canvas>
 	</p>
+	<p align="center"><button type="button" onclick="start();"/></p>
 
 <script>
 	const canvas = document.getElementById("myCanvas");
@@ -162,7 +163,10 @@
 	document.addEventListener("keydown", KeyDownHandler, false);
 	document.addEventListener("keyup", KeyUpHandler, false);
 
-	var interval = setInterval(draw, 10);
+	var interval;
+	function starte() {
+		interval = setInterval(draw, 10);
+	}
 </script>
 
 </body>

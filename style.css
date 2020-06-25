@@ -7,14 +7,6 @@ html {
 	user-select:none;
 }
 
-#no-drag {
-	-ms-user-select: none;
-	-moz-user-select: -moz-none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	user-select:none;
-}
-
 .centered {
 	display: table;
 	margin-left: auto;
@@ -22,7 +14,7 @@ html {
 }
 
 div.banner {
-	margin-left: 5rem;
+	margin-left: 1rem;
 }
 
 table.menu {
@@ -49,8 +41,8 @@ table.menu td:hover {
 div.main {
 	border-left: 0.1rem solid #F8C946;
 	margin-top: 3rem;
-	margin-left: 5rem;
-	margin-right: 5rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
 }
 
 .body {

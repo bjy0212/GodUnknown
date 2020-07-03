@@ -1,43 +1,80 @@
 html {
-	-webkit-text-size-adjust: none;
 	-ms-user-select: none;
 	-moz-user-select: -moz-none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
 	user-select:none;
-	font-fammily: 'Roboto', serif;
-
-	font-size: 2rem;
-	line-height: 2.5rem;
+    -webkit-text-size-adjust: none;
+	font-fammily: 'serif';
+	font-size: 18pt;
+    background: gray;
+    color: #fff;
 }
 
-#menu {
-	display: none;
+body {
+	margin: 0;
+    color: #fff;
 }
 
-div.menu img{
-	border: 0.2rem solid orange;
-}
-
-.sub {
-	display: none;
-	width: 40%;
-}
-
-.sub {
-	padding: 1rem;
-}
-
-.sub li {
-	text-align: center;
-	display: inline-box;
-	float: top;
+ul, ol, li {
 	list-style-type: none;
-	background: #F8C946;
-	border: 0.1rem solid white;
-	width: 40%
+    vertical-align: center;
 }
 
-#menu:checked + .sub {
-	display: inline;
+#nav {
+    font-size: 24pt;
+	size: inherit;
+}
+
+#nav ul{
+    border-bottom: 7px solid black;
+	width: 100%; padding: 0; margin: 0; position: fixed;
+}
+
+#nav ul.menu li{ vertical-align: center; position: relative; float:left; width: 100%; }
+#nav ul.menu li a{ position: relative; display: inline-table; width: 100%; background: #000; color:#fff; margin: 0; font-weight: bold; padding: 0.8rem; text-decoration: none; padding-left: 0.5rem;}
+#nav ul.menu li a: hover{ color: #eee }
+#nav ul.menu li .sub a{ margin: 0; padding: 0.8rem; padding-left: 0.5rem; vertical-align: center; font-size: 20pt; position: relative; float:left; display:block; width:100%; z-index:999; background:#fff; color: #000; }
+#nav ul.menu li .sub a:hover{ background:#eee; }
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details {
+    display: inline-block;
+    border: 2px solid #ff4f65;
+    border-radius: 5px;
+    /*linear-gradient( 135deg, #f0c2ff 60%, #de59ff )*/
+}
+
+details > summary {
+    padding-left: .5rem;
+    padding-right: .5rem;
+    background: #ff4f65;
+    color: white;
+    list-style: none;
+}
+
+details > p {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+div#main-body {
+    background-color: white;
+    margin: .3rem;
+    margin-top: 3rem;
+    border-radius: 10px;
+    padding: 2rem;
+    color: black;
+}
+
+h2 {
+    margin-top: 2rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    border-left: 10px solid lightgreen;
+    display: inline-block;
+    margin-bottom: 3rem;
 }

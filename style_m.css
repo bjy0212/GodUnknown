@@ -39,7 +39,9 @@ ul, ol, li {
 #nav ul.menu li .sub a:hover{ background:#eee; }
 
 details > summary::-webkit-details-marker {
-  display: none;
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+    display: none;
 }
 
 details {

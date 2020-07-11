@@ -7,18 +7,11 @@ html {
     -webkit-text-size-adjust: none;
 	font-fammily: 'serif';
 	font-size: 14pt;
-    background: gray;
-    color: #fff;
     word-break: break-all;
 }
 
 pre{
 	margin: 1rem;
-}
-
-body {
-	margin: 0;
-    color: #fff;
 }
 
 ul, ol, li {

@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<link rel="stylesheet" href="style_m.css">
+        <title>⚔갓언노운 공식 공략집⚔</title>
+	</head>
+
+	<body>
+		<div id="nav">
+		 	<ul class="menu">
+		  		<li>
+                    <a href="#">공략 리스트</a>
+
+		   			<ul class="sub">
+		    			<li><a href="index.html">0교시.시작하기게 앞서...</a></li>
+		    			<li><a href="전투와_채광.html">1교시.전투와 채광</a></li>
+                        <li><a href="콜로세움.html">2교시.콜로세움</a></li>
+                        <li><a href="길드.html">3교시.길드</a></li>
+                        <li><a href="서브컨텐츠.html">4교시.부컨텐츠</a></li>
+                        <li><a href="데미지_올리기.html">5교시.데미지 올리기</a></li>
+                        <li><a href="랭킹.html">6교시.랭킹</a></li>
+		   			</ul>
+				</li>
+		 	</ul>
+        </div>
+        <br>
+        <div id="main-body">
+			<div id="content_list">
+				<details open=open><summary>목록</summary><p>
+				<a href='javascript:loadBody("(정리본)연료 사용법.html")'>(정리본)연료 사용법</a><br>
+				<a href='javascript:loadBody("1.에픽장비.html")'>1.에픽장비</a><br>
+				<a href='javascript:loadBody("2.그림자검.html")'>2.그림자검</a><br>
+				<a href='javascript:loadBody("3. 반지, 보주(1).html")'>3. 반지, 보주(1)</a><br>
+				<a href='javascript:loadBody("4.고대유물(연료).html")'>4.고대유물(연료)</a><br>
+				<a href='javascript:loadBody("5.룬업글.html")'>5.룬업글</a><br>
+				<a href='javascript:loadBody("6.농장지키기.html")'>6.농장지키기</a><br>
+				<a href='javascript:loadBody("7.하프성(연료).html")'>7.하프성(연료)</a><br>
+				<a href='javascript:loadBody("8.갓언노운세계(갓언노운피로도).html")'>8.갓언노운세계(갓언노운피로도)</a><br>
+				<a href='javascript:loadBody("91.테라국경지대(기괴한인형).html")'>91.테라국경지대(기괴한인형)</a><br>
+				<a href='javascript:loadBody("92.루이스 왕국(연료).html")'>92.루이스 왕국(연료)</a><br>
+				<a href='javascript:loadBody("93.왕국페르헨(차원석).html")'>93.왕국페르헨(차원석)</a></p>
+</details></div>
+			<div id="article">
+			</div>
+		</div>
+
+	   	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+	   	<script type="text/javascript">
+			function loadBody(name){
+				document.getElementById("article").innerHTML='<h2>'+name.replace('.html','')+'</h2><p><object width="100%" height="100%" id="obj" type="text/html" data="데미지-올리기/'+name+'"></object></p>';
+			}
+		   	$(".sub").hide();
+		   	$("ul.menu a").click(function(){
+			   	$("+ul",this).slideToggle("fast");
+		   	});
+	  	</script>
+
+   	</body>
+</html>
